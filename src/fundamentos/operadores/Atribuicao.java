@@ -5,18 +5,18 @@ public class Atribuicao {
 
         int a = 3;
         int b = a;
-        int c = a + b;
+        int d = a + b;
 
-        c += b;       //c = c + b;
-        c -= a;       //c = c - b;
-        c *= b;       //c = c * b;
-        c /= a;       //c = c / a;
+        d += b;       //c = c + b;
+        d -= a;       //c = c - b;
+        d *= b;       //c = c * b;
+        d /= a;       //c = c / a;
 
-        c++;          //c = c + 1;
-        System.out.println(c);
+        d++;          //c = c + 1;
+        System.out.println(d);
 
-        c %= 2;       //c = c % 2; 0 ou 1  COMO DESCOBRIR SE O NUMERO EH PAR OU IMPAR ,0 seria par e 1 impar
+        d %= 2;       //c = c % 2; 0 ou 1  COMO DESCOBRIR SE O NUMERO EH PAR OU IMPAR ,0 seria par e 1 impar
 
-        System.out.println(c);
+        System.out.println(d);
     }
 }
