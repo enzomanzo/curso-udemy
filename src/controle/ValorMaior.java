@@ -2,7 +2,7 @@ package controle;
 
 import java.util.Scanner;
 
-public class UltimoValor {
+public class ValorMaior {
     public static void main(String[] args) {
 
         int contador = 0;
