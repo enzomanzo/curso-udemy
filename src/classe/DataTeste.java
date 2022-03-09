@@ -11,7 +11,7 @@ public class DataTeste {
         d2.mes = 3;
         d2.ano = 1999;
 
-        Data d3 = new Data(); //construtor com data fixa caso nao seja informado nada
+        Data d3 = new Data(); //construtor com data default caso nao seja informado nada
 
         //String dataformatada1 = d1.obterData();
         //String dataformatada2 = d2.obterData();
