@@ -7,24 +7,26 @@ public class Data {
     int ano;
 
     // metodo mais aconselhavel pois tem compatilidade com varias aplicacoes
-    String obterData() {
-        return String.format("%d/%d/%d", dia, mes, ano);
+    String obterDataFormatada() {
+        String formato = "%d/%d/%d";
+        return String.format(formato,dia,mes,ano);
     }
     //metodo nao retorna em diversas aplicacoes por isso nao recomendado
     void imprimirData(){
-        System.out.println(obterData());
+        System.out.println(obterDataFormatada());
     }
 
 
     Data (){
-        dia = 1;
+       /* dia = 1;
         mes = 1;
-        ano = 1970;
+        ano = 1970;*/
+        this(1,1,1970);
     }
 
-    Data(int diaInicial,int mesInicial, int anoIncial){
-        dia = diaInicial;
-        mes = mesInicial;
-        ano = anoIncial;
+    Data(int dia,int mes, int ano){
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
     }
 }

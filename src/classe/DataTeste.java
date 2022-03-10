@@ -16,12 +16,12 @@ public class DataTeste {
         //String dataformatada1 = d1.obterData();
         //String dataformatada2 = d2.obterData();
         System.out.println();
-        System.out.println("Data realizado: " + d1.obterData()); //metodo com String.format
+        System.out.println("Data realizado: " + d1.obterDataFormatada()); //metodo com String.format
         //System.out.println(dataformatada1); //metodo com String.format
         System.out.println();
-        System.out.println("Meu aniversario: " + d2.obterData()); //metodo com String.format
+        System.out.println("Meu aniversario: " + d2.obterDataFormatada()); //metodo com String.format
         System.out.println();
-        System.out.println(d3.obterData());
+        System.out.println(d3.obterDataFormatada());
         System.out.println();
         d1.imprimirData();  //metodo direto com sysout (nao recomendado)
         d2.imprimirData();  //metodo direto com sysout (nao recomendado)
